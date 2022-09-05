@@ -1,0 +1,89 @@
+/* font family: Inter*/
+@import url(../css/fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 100px;
+    place-items: center;
+}
+
+.container-image {
+    display: flex;
+    justify-content: center;
+}
+
+main > h1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 54px;
+    text-align: center;
+    color: #000000;
+    margin-top: 44px;
+    margin-bottom: 32px;
+}
+
+main > p {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 34px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 34px;
+}
+
+hr {
+    margin: 0 auto;
+    width: 50rem;
+    display: grid;
+    place-items: center;
+    margin-top: 34px;
+}
+
+section {
+    width: 50%;
+    margin: auto;
+    display: grid;
+    place-items: center;
+}
+
+section > h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    place-items: center;
+    font-size: 44px;
+    line-height: 53.25px;
+    margin-top: 64px;
+    margin-bottom: 39px;
+}
+
+.blog-grid-container {
+    place-items: center;
+}
+
+.blog-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 28px;
+    margin-bottom: 162px;
+}
+
+.blog-row h3 {
+    font-family: 'Inter', sans-serif;
+    max-width: fit-content;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 26.4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 64px;
+}
